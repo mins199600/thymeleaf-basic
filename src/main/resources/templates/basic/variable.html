@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -19,9 +18,9 @@
     <li>${users[0].getUsername()} = <span th:text="${users[0].getUsername()}"></span></li>
 </ul>
 <ul>Map
-    <li>${userMap['userA'].username} =  <span th:text="${userMap['userA'].username}"></span></li>
-    <li>${userMap['userA']['username']} = <span th:text="${userMap['userA']['username']}"></span></li>
-    <li>${userMap['userA'].getUsername()} = <span th:text="${userMap['userA'].getUsername()}"></span></li>
+    <li>${userMap['userA'].username} =  <span th:text="${userMap['sumin'].username}"></span></li>
+    <li>${userMap['userA']['username']} = <span th:text="${userMap['sumin']['username']}"></span></li>
+    <li>${userMap['userA'].getUsername()} = <span th:text="${userMap['sumin'].getUsername()}"></span></li>
 
 </ul>
 
