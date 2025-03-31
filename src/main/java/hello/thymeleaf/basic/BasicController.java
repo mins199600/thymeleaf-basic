@@ -76,6 +76,12 @@ public class BasicController {
         return "basic/link";
     }
 
+    @GetMapping("/literal")
+    public String literal(Model model) {
+        model.addAttribute("data","choco");
+        return "basic/literal";
+    }
+
     //임시유저
     @Data
     static class User {
